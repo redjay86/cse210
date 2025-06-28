@@ -21,17 +21,38 @@ class Reference
         _endVerse = endVerse;
     }
 
+
+    public string GetBook()
+    {
+        return _book;
+    }
+
+    public int GetChapter()
+    {
+        return _chapter;
+    }
+
+    public int GetVerse()
+    {
+        return _verse;
+    }
+
+    public int GetEndVerse()
+    {
+        return _endVerse;
+    }
+
     public string GetDisplayText()
     {
         if (_verse == _endVerse)
         {
-            return $"{_book} {_chapter}:{_verse}";
+            return $"{_book} {_chapter}:{_verse} ";
         }
         else
         {
             return $"{_book} {_chapter}:{_verse}-{_endVerse}: ";
         }
-        
+
     }
 
 }
