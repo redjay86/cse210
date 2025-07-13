@@ -1,5 +1,6 @@
 using System;
 
+// Added counting the number an activity runs 
 class Program
 {
     static void Main(string[] args)
@@ -34,7 +35,7 @@ class Program
                 Environment.Exit(0);
             }
         }
-        
+
 
     }
 }
