@@ -1,4 +1,4 @@
-using System;
+// Added another option to undo a goal if you accidentiently recorded it.
 
 class Program
 {
